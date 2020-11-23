@@ -1,0 +1,48 @@
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 95px 0;
+
+    @media (max-width: $brealpont_md) {
+        margin: 40px 0;
+    }
+}
+
+.features__item {
+    width: 33.33333%;
+    padding: 0 40px;
+    margin: 25px 0;
+
+    text-align: center;
+
+    @media (max-width: $brealpont_lg) {
+        width: 50%;
+    }
+
+    @media (max-width: $brealpont_md) {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.features__icon {
+    margin-bottom: 30px;
+}
+
+.features__title {
+    margin-bottom: 25px;
+
+    font-size: 14px;
+    font-weight: 700;
+    color: $purple;
+
+    text-transform: uppercase;
+}
+
+.features__text{
+    font-size: 14px;
+    line-height: 1.5;
+    color: $grey;
+}
+

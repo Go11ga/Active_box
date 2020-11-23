@@ -1,0 +1,77 @@
+.social {
+    display: flex;
+
+    @media (max-width: $brealpont_lg) {
+        justify-content: center;
+    }
+}
+
+.social--footer {
+    justify-content: center;
+
+    .social__item {
+        background-color: transparent;
+        border-width: 2px;
+        border-color: $white;
+        border-radius: 2px;
+
+        &:hover {
+            background-color: $white;
+        }
+    }
+
+    .social__icon {
+        fill: $white;
+    }
+}
+
+.social__item {
+    margin-right: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+
+    background-color: $white;
+    border: 1px solid darken($white, 10%);
+
+    transition: background-color .1s linear;
+
+    &:hover {
+        background-color: darken($white, 10%);
+
+        .social__icon {
+            fill: $red;
+        }
+    }
+}
+
+.social__icon {
+    display: block;
+    height: 18px;
+
+    fill: darken($white, 10%);
+
+    transition: fill .1s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

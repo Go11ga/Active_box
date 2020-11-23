@@ -1,0 +1,63 @@
+.nav {
+    display: flex;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    @media (max-width: $brealpont_lg) {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+
+        background-color: $purple;
+        text-align: right;
+
+        position: absolute; /* Relative body*/
+        top: 100%;
+        right: 0;
+    }
+}
+
+.nav--show {
+    display: flex;
+}
+
+.nav__link {
+    margin-left: 50px;
+
+    color: $white;
+
+    text-decoration: none;
+    opacity: .75;
+
+    transition: opacity .2s linear;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+
+    @media (max-width: $brealpont_lg) {
+        padding: 9px 15px;
+    }
+}
+
+.nav__link--active {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+

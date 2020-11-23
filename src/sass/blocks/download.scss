@@ -1,0 +1,32 @@
+.download {
+    margin: 90px 0px;
+
+    text-align: center;
+
+    @media (max-width: $brealpont_md) {
+        margin: 50px 0;
+    }
+}
+
+.download__title {
+    margin-bottom: 15px;
+
+    font-size: 28px;
+    color: $black;
+    font-weight: 300;
+
+    @media (max-width: $brealpont_md) {
+        font-size: 24px;
+    }
+}
+
+.download__text {
+    margin-bottom: 40px;
+
+    font-size: 13px;
+    color: $black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+

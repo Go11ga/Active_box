@@ -1,0 +1,83 @@
+.team {
+    margin: 100px 0 70px;
+
+    @media (max-width: $brealpont_md) {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+}
+
+.team__inner {
+    margin: 0 -15px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team__item {
+    margin-bottom: 30px;
+    width: 25%;
+    padding: 0 15px;
+
+    @media (max-width: $brealpont_lg) {
+        width: 50%;
+
+        text-align: center;
+    }
+
+    @media (max-width: $brealpont_md) {
+        width: 100%;
+    }
+}
+
+.team__photo {
+    margin-bottom: 30px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+    @media (max-width: $brealpont_lg) {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.team__name {
+    margin-bottom: 8px;
+
+    font-size: 22px;
+    color: $black;
+}
+
+.team__prof {
+    margin-bottom: 30px;
+
+    font-size: 13px;
+    color: $red;
+    text-transform: uppercase;
+}
+
+.team__text {
+    margin-bottom: 20px;
+
+    color: $grey;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

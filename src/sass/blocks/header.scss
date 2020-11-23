@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    height: $header_height; /* 100px */
+
+    display: flex;
+    align-items: center;
+
+    position: absolute; /*Relative body*/
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header--fixed {
+    height: $header_height*0.5;
+
+    background-color: $purple;
+
+    position: fixed;
+
+    .header__inner {
+        padding: 0;
+
+        border-bottom: 0;
+    }
+}
+
+.header__inner {
+    padding: 35px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid $grey_lht;
+}

@@ -1,0 +1,36 @@
+.btn {
+    display: inline-block;
+    padding: 16px 49px;
+
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: $white;
+    font-weight: 600;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn--red {
+    background-color: $red;
+    transition: background-color .2s linear;
+
+    &:hover {
+        background-color: darken($red, 20%);
+    }
+}
+
+.btn--long {
+    min-width: 280px;
+
+    @media (max-width: $brealpont_md) {
+        min-width: 260px;
+    }
+}
+
+

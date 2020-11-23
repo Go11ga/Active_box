@@ -1,0 +1,48 @@
+/* Variables */
+@import "vars";
+
+
+/* Default styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: $grey;
+
+    background-color: $white;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* Blocks */
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/burger";
+@import "blocks/intro";
+@import "blocks/btn";
+@import "blocks/features";
+@import "blocks/works";
+@import "blocks/team";
+@import "blocks/social";
+@import "blocks/reviews";
+@import "blocks/download";
+@import "blocks/footer";
+@import "blocks/copyright";
+
+
+/* Slick */
+@import "vendor/slick";
